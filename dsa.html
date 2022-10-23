@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Interdiciplinar</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="shortcut icon" href="./imagens/icones/visual-studio.ico" type="image/x-icon">
+    <script src="form.js"></script>
+    <script src="botao.js"></script>
+    
+</head>
+<body>
+    <!-- Aqui inicia o cabeçalho da pagina-->
+    <header class="cabeçalho">
+
+        <nav class="navbar">
+            <h1 id="diciplina">desenvolvimento de sistemas</h1>
+            <a href="index.html">INICIO</a>
+            <a href="logb.html">LOGB</a>
+            <a href="empr.html">EMPR</a>
+            <a href="futi.html">FUTI</a>
+            <a href="esmd.html">ESMD</a>
+            <a href="prit.html">PRIT</a>
+        </nav>
+
+        <a>
+            <i class="uil uil-arrow-left" onclick="voltar()"></i>
+        </a>
+    </header>
+    <!-- Aqui termina o cabeçalho da pagina-->
+    <!-- Aqui começa o corpo da pagina -->
+    <br> <br> <br> <br>
+    <section class="formulario" onsubmit="return formulario()">
+        <form>
+            <fieldset class="grupo">
+                <div class="campos">
+                    <label>Nome do professor:</label>
+                    <input type="text" class="inputs" id="txtprof">
+                </div>
+
+                <div class="campos">
+                    <label>Email do professor:</label>
+                    <input type="email" id="txtemail" class="inputs">
+                </div>
+            </fieldset>
+            
+            <div class="campos">
+            <label> Disciplina do professor:</label>
+                <label>
+                    <input type="radio" name="dsa" value="logb" class="inputs">LOGB
+                </label>
+                <label>
+                    <input type="radio" name="dsa" value="empr" class="inputs">EMPR
+                </label>
+                <label>
+                    <input type="radio" name="dsa" value="futi" class="inputs">FUTI
+                </label>
+                <label>
+                    <input type="radio" name="dsa" value="esmd" class="inputs">ESMD
+                </label>
+                <label>
+                    <input type="radio" name="dsa" value="prit" class="inputs">PRIT
+                </label>
+                <label>
+                    <input type="radio" name="dsa" value="dsa" class="inputs">DSA
+                </label>
+            </div>
+
+            <div class="campos">
+                <label> Qual a sua opinião sobre a navegação entre as páginas:</label>
+                <select  class="inputs" id="navpag">
+                    <option value="">Selecione</option>
+                    <option value="mtf">Muito Fácil</option>
+                    <option value="fa">Fácil</option>
+                    <option value="co">Complicada</option>
+                    <option value="mtc">Muito Complicada</option>
+                </select>
+                
+            </div>
+
+            <div class="campos">
+                <label> Em relação a estética básica das páginas:</label>
+                <select  class="inputs" id="estpag">
+                    <option value="">Selecione</option>
+                    <option value="fta">Faltou muita coisa a ser trabalhada</option>
+                    <option value="pst">Poderia ser mais trabalhada</option>
+                    <option value="esmd">Foi trabalhada</option>
+                    <option value="empr">Foi bem trabalhada</option>
+                </select>
+                    
+            </div>
+
+            <div class="campos">
+                <label> Em relação a comprensão dos textos do trabalho:</label>
+                <select  class="inputs" id="comppag">
+                    <option value="">Selecione</option>
+                    <option value="mtf">Muito Fácil</option>
+                    <option value="fa">Fácil</option>
+                    <option value="co">Complicada</option>
+                    <option value="mtc">Muito Complicada</option>
+                </select>
+            
+            </div>
+
+            <div class="campos">
+                <label>  Em relação ao conteúdo do trabalho de forma qualitativa:</label>
+                <select  class="inputs" id="contpag">
+                    <option value="">Selecione</option>
+                    <option value="ctp">Conteúdo fora do pedido pelo professor</option>
+                    <option value="ps">Pouco suficiente</option>
+                    <option value="su">Suficiente</option>
+                    <option value="mts">Mais que suficiente</option>
+                </select>
+            </div>
+            
+            <div class="campos">
+                <label> Dê uma nota de zero até sete sobre o trabalho:</label>
+                    <input type="text" name="nota" id="txtnota" class="inputs" size="5" maxlength="4">
+            </div>
+
+            <div class="campos">
+                <label> Faça um comentário sobre a avaliação do trabalho:</label>
+                    <textarea name="comentario" style="width: 26em" class="inputs" id="txtcomit" cols="40" rows="6"></textarea>
+                
+            </div>
+
+            <input type="submit" value="Enviar" id="botao">
+               
+        </form>
+    </section>
+    
+    <!-- Aqui termina o corpo da pagina -->
+    <!-- Aqui começa o rodapé da pagina -->
+    <footer class="rodape">
+   
+            <div class="compartilhar">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="https://github.com/lisboa-leo" class="fab fa-github"></a>
+            </div>
+        
+            <div class="links">
+                <a href="index.html">INCIO</a>
+                <a href="logb.html">LOGB</a>
+                <a href="empr.html">EMPR</a>
+                <a href="futi.html">FUTI</a>
+                <a href="esmd.html">ESMD</a>
+                <a href="prit.html">PRIT</a>
+            </div>
+        
+            <div class="creditos">Criado pelo estudante <span>Leonardo Lisboa</span> | todos os direitos reservados</div>
+    </footer>
+     <!-- Aqui termina o rodape da pagina-->
+</body>
+</html>

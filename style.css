@@ -1,0 +1,851 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100;300;400;500;700&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+html{
+    font-size:65.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: .5rem;
+}
+
+*{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+
+}
+
+body{
+    background: linear-gradient(70deg, #000000 30%, #2B2B2B 70.61%);
+    color:#fff;
+}
+i{
+    padding: .3rem 1rem;
+    color:#fff;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    font-size: 50px;
+}
+i:hover{
+    color: #ed145b;
+}
+.cabeçalho{
+    background: #151819;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 7%;
+    border-bottom: .1rem solid rgba(7, 7, 7, 0.3);
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    z-index: 1000;
+}
+.cabeçalho .navbar #diciplina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #ed145b;
+    text-transform: uppercase;
+    font-family: 'Poppins', serif;
+    margin-bottom: 5px;
+}
+
+.cabeçalho .navbar a{
+    margin:0 1rem;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.cabeçalho .navbar a:hover{
+    color: #ed145b;
+    border-bottom: .1rem solid #ed145b;;
+    padding-bottom: .5rem;
+}
+/* COMEÇA O INDEX */
+.conteudo_index img{
+    border: solid 2px #91a3ad;
+    margin-left: 14px;
+}
+.conteudo_index div{
+    display: inline-block;
+}
+.conteudo_index h1{
+    position: absolute;
+    left: 13.5em;
+    top: 110px;
+    font-size: 38px;
+    color: #ed145b;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 15px;
+}
+.conteudo_index p{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#91a3ad;
+}
+.conteudo_index #adriel{
+    width: 250px;
+    height: 250px;
+}
+.conteudo_index #isabela{
+    width: 250px;
+    height: 250px;
+}
+.conteudo_index #leonardo{
+    width: 250px;
+    height: 250px;
+}
+.conteudo_index #miguel{
+    width: 250px;
+    height: 250px;
+}
+.conteudo_index #rayssa{
+    width: 250px;
+    height: 250px;
+}
+
+/* TERMINA INDEX */
+
+/* COMEÇA DSA */
+
+
+.formulario{
+    font-size: 1.4em;
+    margin-left: 31%;
+    margin-top: 2%;
+    justify-content: center;
+    border: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+fieldset.grupo .campos{
+    float: left;
+    margin-right: 1em;
+}
+
+.inputs{
+    border-radius: 5px;
+}
+
+.campos{
+    margin-bottom: 1em;
+}
+
+.campos label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+.formulario  .principal{
+    margin-right: 1em;
+}
+
+.campos input[type="text"], .campos input[type="email"], .campos select, .campos textarea{
+    padding: 0.2em;
+    border: 1px solid rgb(97, 109, 114);
+    box-shadow: 2px 2px 2px #2B2B2B;
+}
+
+.campos select option{
+    padding-right: 1em;
+}
+
+#botao{
+    padding: .4em 1rem;
+    color:#fff;
+    border:.1rem solid rgba(7, 7, 7, 0.3);
+    font-size: 2rem;
+    border-radius: 15px;
+    background-color: rgb(97, 109, 114);
+    cursor: pointer;
+    display: flex;
+    margin-left: 216px;
+    margin-bottom: 1em;
+}
+
+#botao:hover{
+    background-color:#ed145b;
+}
+/* TERMINA DSA */
+
+/* COMEÇA ESMD */
+
+#logo_esmd{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+#logo_esmd h1{
+    position: absolute;
+    left: 40%;
+    top: 110px;
+    font-size: 38px;
+    color: #ed145b;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 15px;
+    
+    
+}
+
+.conteudo_esmd{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+    color: #91a3ad;
+}
+
+.conteudo_esmd #cabecalho_esmd{
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+}
+
+.conteudo_esmd img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo_esmd code{
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    font-size: 85%;
+    margin: 0;
+    padding: 0.2em 0.4em;
+}
+
+.conteudo_esmd h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+/* TERMINA ESMD */
+
+/* COMEÇA LOGB */
+
+#logo_logb_ka{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 6%;
+}
+
+#logo_logb_ka h1{
+    position: absolute;
+    left: 470px;
+    top: 110px;
+    font-size: 38px;
+    color: #ed145b;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+
+#logo_logb_gr{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 6%;
+}
+#logo_logb_gr h1{
+    position: absolute;
+    left: 530px;
+    top: 36.7em;
+    font-size: 38px;
+    color: #ed145b;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+
+#logo_logb_he{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 6%;
+}
+
+#logo_logb_he h1{
+    position: absolute;
+    left: 530px;
+    top: 71.6em;
+    font-size: 38px;
+    color: #ed145b;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+#logo_logb_ro{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 6%;
+}
+
+#logo_logb_ro h1{
+    position: absolute;
+    left: 539px;
+    top: 106.1em;
+    font-size: 38px;
+    color: #ed145b;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#logo_logb_kt{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 6%;
+}
+
+#logo_logb_kt h1{
+    position: absolute;
+    left: 535px;
+    top: 137.5em;
+    font-size: 38px;
+    color: #ed145b;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+.conteudo_logb{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+    color: #91a3ad;
+}
+.conteudo_logb h2{
+    font-size: 30px;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+/* TERMINA LOGB */
+
+/* COMEÇA FUTI */
+.conteudo_futi{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+    color: #91a3ad;
+}
+.conteudo_futi #placamae_futi{
+    position: absolute;
+    left: 170px;
+    top: 110px;
+    font-size: 30px;
+    color: #ed145b;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 35px;
+}
+.conteudo_futi #placavid_futi{
+    position: absolute;
+    left: 160px;
+    top: 23.2em;
+    font-size: 30px;
+    color: #ed145b;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+.conteudo_futi li{
+    margin-bottom: 5px;
+}
+.conteudo_futi h3{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-size: 21px;
+}
+.conteudo_futi img{
+    margin-left: 2em;
+    margin-right: 1em;
+}
+/* TERMINA FUTI */
+
+/* COMEÇA PRIT */
+.conteudo_prit{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+    color: #91a3ad;
+}
+.conteudo_prit img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.conteudo_prit p{
+    margin-bottom: 20px;
+}
+.conteudo_prit h2{
+    font-size: 23px;
+    margin-top: 15px;
+}
+.conteudo_prit ul{
+    margin-bottom: 20px;
+    margin-left:1.5em;
+}
+.conteudo_prit h1{
+    position: absolute;
+    left: 13.5em;
+    top: 110px;
+    font-size: 38px;
+    color: #ed145b;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 50px;
+}
+.conteudo_prit h3{
+    font-size: 21px;
+}
+.conteudo_prit a{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.conteudo_prit a:hover{
+    color: #ed145b;
+}
+/* TERMINA PRIT */
+
+/* COMEÇA EMPR */
+.conteudo_empr{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+    color: #91a3ad;
+}
+.conteudo_empr h1{
+    position: absolute;
+    left: 18.5em;
+    top: 110px;
+    font-size: 38px;
+    color: #ed145b;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 60px;
+}
+.conteudo_empr img{
+    display: flex;
+    margin-left: 12em;
+    width: 250px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    width: 200px;
+}
+.conteudo_empr h2{
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.conteudo_empr ul{
+    margin-left: 2em;
+    margin-top: 1em;
+}
+.conteudo_empr h3{
+    margin-top: 10px;
+}
+.conteudo_empr a{
+    cursor: pointer;
+}
+.conteudo_empr a:hover{
+    color: #ed145b;
+}
+
+/* TERMINA EMPR */
+
+.rodape{
+    background: #151819;
+    text-align: center;
+}
+
+.rodape .compartilhar{
+    padding: 1rem 0;
+}
+
+.rodape .compartilhar a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#fff;
+    border:.1rem solid rgba(7, 7, 7, 0.3);
+    margin: .3rem;
+    border-radius: 50%;
+}
+
+.rodape .compartilhar a:hover{
+    background-color:#ed145b;
+}
+
+.rodape .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap:1rem;
+}
+
+.rodape .links a{
+    padding: .5em 2rem;
+    color:#fff;
+    border:.1rem solid rgba(7, 7, 7, 0.3);
+    font-size: 2rem;
+    border-radius: 15px;
+}
+
+.rodape .links a:hover{
+    background-color: #ed145b;
+}
+
+.rodape .creditos{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+}
+
+.rodape .creditos span{
+    color: #000000;
+}
+
+
+@media screen and (max-width: 1920px){
+   
+    .conteudo_futi{
+        margin-left: 29%;
+    }
+    .conteudo_futi #placamae_futi{
+        left: 17em;
+        top: 110px;
+    }
+    .conteudo_futi #placavid_futi{
+        left: 520px;
+        top: 24.2em;
+    }
+    .conteudo_futi img{
+    margin-left: 8em;
+    margin-right: 1em;
+    }
+
+    #logo_logb_ka h1{
+    position: absolute;
+    left: 19.5em;
+    top: 110px;
+    font-size: 38px;
+    color: #ed145b;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+    }
+   
+    #logo_logb_gr h1{
+        position: absolute;
+        left: 21.2em;
+        top: 39.5em;
+        font-size: 38px;
+        color: #ed145b;
+        text-transform: uppercase;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 20px;
+    }
+    
+    #logo_logb_he h1{
+        position: absolute;
+        left: 21.2em;
+        top: 75.3em;
+        font-size: 38px;
+        color: #ed145b;
+        text-transform: uppercase;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    
+    #logo_logb_ro h1{
+        position: absolute;
+        left: 21.5em;
+        top: 110.5em;
+        font-size: 38px;
+        color: #ed145b;
+        text-transform: uppercase;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    
+    #logo_logb_kt h1{
+        position: absolute;
+        left: 21.6em;
+        top: 142.5em;
+        font-size: 38px;
+        color: #ed145b;
+        text-transform: uppercase;
+        font-family: 'Inter', sans-serif;
+        margin-bottom: 20px;
+        margin-top: 35px;
+    }
+    .conteudo_logb{
+        margin-left: 24%;
+    }
+    
+    .img_rodape_ka{
+        margin-top: 3em;
+        margin-right: 1em;
+        border-radius: 10px;
+        margin-left: 6em;
+    }
+    .img_rodape_gr{
+        margin-top: 2em;
+        margin-right: 1em;
+        justify-content: center;
+        margin-left: 2em;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 6em;
+    }
+    .img_rodape_he{
+        margin-top: 2em;
+        margin-right: 2em;
+        justify-content: center;
+        margin-left: 2em;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 6em;
+    }
+    
+    .img_rodape_ro{
+        margin-top: 2em;
+        margin-right: 2em;
+        justify-content: center;
+        margin-left: 2em;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 6em;
+    }
+    .img_rodape_kt{
+        margin-top: 2em;
+        margin-right: 2em;
+        justify-content: center;
+        margin-left: 2em;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 6em;
+    }
+    .formulario{
+        margin-left: 25.5em;
+        margin-top: 2%;
+
+    }
+
+    .conteudo_empr h1{
+        position: absolute;
+        left: 21.5em;
+        top: 110px;
+    }
+    .conteudo_empr img{
+        margin-left: 11.5em;
+        margin-top: 5px;
+    }
+    .conteudo_empr{
+        margin-left: 33%;
+        margin-right: 20%;
+        margin-bottom: 30px;
+    }
+    .conteudo_prit{
+        margin-top: 30px;
+        margin-left: 25em;
+    }
+    .conteudo_prit h1{
+        margin-left: 7.5em;
+    }
+
+    
+    .conteudo_index img{
+        border: solid 2px #91a3ad;
+        margin-left: 5.5em;
+        margin-top: 7em;
+    }
+    .conteudo_index p{
+        text-align: center;
+        margin-bottom: 10em;
+        margin-left: 5em;
+    }
+    .conteudo_index h1{
+        margin-left: 7.5em;
+    }
+        
+}
+    
+
+@media screen and (max-width: 1366px){
+   
+    #logo_logb_ka h1{
+        position: absolute;
+        left: 12.3em;
+        top: 110px;
+    }
+   
+    #logo_logb_gr h1{
+        position: absolute;
+        left: 13.9em;
+        top: 37em;
+    }
+    
+    #logo_logb_he h1{
+        position: absolute;
+        left: 13.9em;
+        top: 71.5em;
+    }
+    
+    #logo_logb_ro h1{
+        position: absolute;
+        left: 14.1em;
+        top: 105.4em;
+        
+    }
+    
+    #logo_logb_kt h1{
+        position: absolute;
+        left: 14.1em;
+        top: 136.3em;
+    }
+    
+    .img_rodape_ka{
+        margin-left: 2em;
+        margin-right: 2em;
+
+    }
+    .img_rodape_gr{
+        margin-left: 1em;
+    }
+    .img_rodape_he{
+        margin-left: 1em;
+    }
+    
+    .img_rodape_ro{
+        margin-left: 2em;
+    }
+    .img_rodape_kt{
+        margin-left: 2em;
+    }
+    .formulario{
+        margin-left: 15.2em;
+        margin-top: 2%;
+
+    }
+    .conteudo_futi #placamae_futi{
+    left: 140px;
+    top: 110px;
+    }
+    .conteudo_futi #placavid_futi{
+        left: 140px;
+        top: 23.5em;
+    }
+    .conteudo_futi li{
+        margin-bottom: 5px;
+    }
+    .conteudo_futi h3{
+        margin-bottom: 20px;
+        margin-top: 15px;
+        font-size: 21px;
+    }
+    .conteudo_futi img{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .conteudo_futi p{
+        margin-top: 10px;
+    }
+
+    .conteudo_empr h1{
+        position: absolute;
+        left: 13.5em;
+        top: 100px;
+    }
+    .conteudo_empr img{
+        margin-left: 8em;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .conteudo_empr {
+        margin-left: 20em;
+    }
+    .conteudo_empr{
+        margin-left: 30%;
+        margin-right: 20%;
+        margin-bottom: 30px;
+    }
+    .conteudo_prit{
+        margin-left: 20em;
+    }
+    .conteudo_prit h1{
+        margin-left:10px;
+        margin-bottom: 2em;
+    }
+    .conteudo_index img{
+        border: solid 2px #91a3ad;
+        margin-left: 10px;
+        margin-top: 7em;
+    }
+    .conteudo_index p{
+        text-align: center;
+        margin-bottom: 10em;
+        margin-left: 10px;
+    }
+    .conteudo_index h1{
+        margin-left: 5px;
+    }
+        
+    
+}

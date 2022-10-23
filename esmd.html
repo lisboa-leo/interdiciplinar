@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Interdiciplinar</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="shortcut icon" href="./imagens/icones/cloud-data-center.ico" type="image/x-icon">
+    <script src="botao.js"></script>
+</head>
+<body>
+    <!-- Aqui inicia o cabeçalho da pagina-->
+    <header class="cabeçalho">
+
+        <nav class="navbar">
+            <h1 id="diciplina">estrutura e modelagem de dados</h1>
+            <a href="index.html">INICIO</a>
+            <a href="logb.html">LOGB</a>
+            <a href="empr.html">EMPR</a>
+            <a href="futi.html">FUTI</a>
+            <a href="prit.html">PRIT</a>
+            <a href="dsa.html">DSA</a>
+        </nav>
+        <a>
+            <i class="uil uil-arrow-left" onclick="voltar()"></i>
+        </a>
+    </header>
+    <!-- Aqui termina o cabeçalho da pagina-->
+    <!-- Aqui começa o corpo da pagina -->
+    <section>
+        <br> <br> <br> <br> <br> <br> <br> <br>
+        <div id="logo_esmd">
+            <h1 >Linguagem SQL</h1>
+            <img src="./imagens/ESMD/o-que-sql.png">
+        </div>
+        <div class="conteudo_esmd">
+           <h2 id="cabecalho_esmd"> O que é SQL e para que serve?</h2>
+           <p><strong>SQL</strong> é uma linguagem padrão para trabalhar com <strong>bancos de dados relacionais.</strong> 
+            Ela é uma linguagem declarativa e que não necessita de profundos conhecimentos de programação para que alguém possa começar a escrever <strong>queries</strong>, as consultas e pedidps, que trazem resultados de acordo com o que você está buscando. 
+            <strong>SQL</strong> significa <strong>Standard Query Language</strong>, literalmente a linguagem padrão para realizar queries.
+            </p> <br>
+
+            <p>A <strong>linguagem SQL</strong> é utilizada de maneira relativamente parecida entre os principais bancos de dados relacionais do mercado: Oracle, MySQL, MariaDB, PostgreSQL, Microsoft SQL Server, entre muitos outros. 
+                Cada um tem suas características, sendo o <strong> MySQL </strong> e o <strong> PostgreSQL </strong> extremamente populares por possuírem versões gratuitas e de código aberto.
+            </p> <br>
+
+            <h2 id="cabecalho_esmd">O que é select e suas opções (where e order by)?</h2>
+            <p> 
+                O SELECT é utilizado para extrair os dados das tabelas de um banco de dados. Ele pode extrair dados de uma ou mais tabelas ao mesmo tempo, executando desde simples consultas até comandos mais complexos, fazendo buscas, junções, filtros comparativos, ordenações e diversos outros itens.
+            <p>
+
+            <h2><strong>SELECT:</strong> Uma query de consulta a um banco</h2>
+            <p >Imagine que você tem uma tabela de banco de dados, que realmente pode ser feito uma analogia com uma planilha de Excel, para guardar as informações das suas notas fiscais:
+                <img src="./imagens/ESMD/Exemplo 1.png">
+            </p>
+
+            <p>
+                Se você quer buscar todas as notas fiscais que tem valores acima de mil reais, a query que você deve rodar é uma que vai selecionar (<code>SELECT</code>) todos os campos (*) onde (<code>WHERE</code>) o valor da nota seja maior que mil (<code>valor > 1000</code>):
+                <img src="./imagens/ESMD/Exemplo 2.png">
+            </p>
+
+            <p>
+                E assim sera o resultado:
+                <img src="./imagens/ESMD/Exemplo 3.png">
+            </p>
+
+            <p>
+                Com você pode ver, é bastante simples e direto. Quase uma sentança escrita em inglês. Esse caso foi no mysql mas essa query é padrão em todos os bancos de dados.
+            </p> <br>
+
+            <p>
+                <strong>A cláusula WHERE</strong> é a responsável por filtrar resultados, utilizando parâmetros comparativos como igual, diferente, maior, menor e entre outros. Além disso, podemos usar diversos filtros em nossas consultas, inclusive adicionar parênteses para priorizar consultas dentro de escopos.
+            </p> <br>
+
+            <p>
+                <strong>Uma cláusula ORDER BY</strong> no SGBD SQL, especifica que em uma declaração de um comando SELECT, o retorno é um conjunto de resultados, com as linhas sendo ordenadas baseando-se nos valores de uma ou mais colunas especificadas na cláusula.
+            </p> <br>
+            
+            <h2 id="cabecalho_esmd">
+                Como usar a clausula join em SQL
+            </h2>
+
+            <p>
+                Uma cláusula JOIN em SQL, correspondente a uma operação de junção em álgebra relacional, combina colunas de uma ou mais tabelas em um banco de dados relacional. Ela cria um conjunto que pode ser salvo como uma tabela ou usado da forma como está.
+            </p>
+
+        </div>
+
+    
+    </section>
+    <!-- Aqui termina o corpo da pagina -->
+    <!-- Aqui começa o rodapé da pagina -->
+    <footer class="rodape">
+            <div class="compartilhar">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="https://github.com/lisboa-leo" class="fab fa-github"></a>
+            </div>
+        
+            <div class="links">
+                <a href="index.html">INCIO</a>
+                <a href="logb.html">LOGB</a>
+                <a href="empr.html">EMPR</a>
+                <a href="futi.html">FUTI</a>
+                <a href="prit.html">PRIT</a>
+                <a href="dsa.html">DSA</a>
+            </div>
+        
+            <div class="creditos">Criado pelo estudante <span>Leonardo Lisboa</span> | todos os direitos reservados</div>
+    </footer>
+     <!-- Aqui termina o rodape da pagina-->
+</body>
+</html>
