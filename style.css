@@ -67,7 +67,7 @@ i:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #ed145b;
     text-transform: uppercase;
     font-family: 'Poppins', serif;
@@ -480,7 +480,7 @@ fieldset.grupo .campos{
     margin-left: 12em;
     width: 250px;
     margin-bottom: 30px;
-    margin-top: 50px;
+    margin-top: 20px;
     width: 200px;
 }
 .conteudo_empr h2{
@@ -695,7 +695,7 @@ fieldset.grupo .campos{
     }
     .conteudo_empr img{
         margin-left: 11.5em;
-        margin-top: 5px;
+        margin-top: 30px;
     }
     .conteudo_empr{
         margin-left: 33%;
@@ -812,10 +812,11 @@ fieldset.grupo .campos{
         position: absolute;
         left: 13.5em;
         top: 100px;
+        margin-top:15px;
     }
     .conteudo_empr img{
         margin-left: 8em;
-        margin-top: 25px;
+        margin-top: 10px;
         margin-bottom: 25px;
     }
     .conteudo_empr {
