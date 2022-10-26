@@ -89,7 +89,7 @@ i:hover{
 /* COMEÇA O INDEX */
 .conteudo_index img{
     border: solid 2px #91a3ad;
-    margin-left: 14px;
+    margin-left: 15px;
 }
 .conteudo_index div{
     display: inline-block;
@@ -739,26 +739,26 @@ fieldset.grupo .campos{
     #logo_logb_gr h1{
         position: absolute;
         left: 13.9em;
-        top: 36.9;
+        top: 36.9em;
     }
     
     #logo_logb_he h1{
         position: absolute;
         left: 13.9em;
-        top: 70.8em;
+        top: 71.5em;
     }
     
     #logo_logb_ro h1{
         position: absolute;
         left: 14.1em;
-        top: 104.8em;
+        top: 105.4em;
         
     }
     
     #logo_logb_kt h1{
         position: absolute;
         left: 14.1em;
-        top: 135.7em;
+        top: 136.2em;
     }
     
     .img_rodape_ka{
@@ -816,11 +816,12 @@ fieldset.grupo .campos{
     }
     .conteudo_empr img{
         margin-left: 8em;
-        margin-top: 10px;
-        margin-bottom: 25px;
+        margin-top: 35px;
+        margin-bottom: 30px;
     }
     .conteudo_empr {
         margin-left: 20em;
+        margin-top: 10px;
     }
     .conteudo_empr{
         margin-left: 30%;
