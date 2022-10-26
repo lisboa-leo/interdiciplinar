@@ -550,13 +550,13 @@ fieldset.grupo .campos{
 
 .rodape .creditos{
     font-size: 2rem;
-    color: #91a3ad;
+    color: #fff;
     font-weight: lighter;
     padding: 1.5rem;
 }
 
 .rodape .creditos span{
-    color: #000000;
+    color: #91a3ad;
 }
 
 
