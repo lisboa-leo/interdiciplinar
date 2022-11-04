@@ -129,6 +129,10 @@ i:hover{
     width: 250px;
     height: 250px;
 }
+#linksform ul{
+    margin-left: 51em;
+    list-style: none;
+}
 
 /* TERMINA INDEX */
 
