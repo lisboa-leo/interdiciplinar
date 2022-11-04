@@ -133,6 +133,13 @@ i:hover{
     margin-left: 51em;
     list-style: none;
 }
+#linksform a{
+    cursor: pointer;
+}
+#linksform a:hover{
+    color: #ed145b;
+    text-decoration: underline;
+}
 
 /* TERMINA INDEX */
 
